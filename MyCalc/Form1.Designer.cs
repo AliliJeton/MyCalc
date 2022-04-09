@@ -100,7 +100,7 @@
             this.btnPlusMinus.TabIndex = 1;
             this.btnPlusMinus.Text = "±";
             this.btnPlusMinus.UseVisualStyleBackColor = false;
-            this.btnPlusMinus.Click += new System.EventHandler(this.button1_Click);
+            this.btnPlusMinus.Click += new System.EventHandler(this.PlusMinus);
             // 
             // btnPlus
             // 

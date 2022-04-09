@@ -94,6 +94,20 @@ namespace MyCalc
             }
         }
 
+        private void PlusMinus(object sender, EventArgs e)
+        {
+            if (!txtDisplay.Text.Contains("-"))
+            {
+                txtDisplay.Text = txtDisplay.Text.Remove(0, 1);
+            }
+            else
+            {
+                txtDisplay.Text = "-" + txtDisplay.Text;
+            }
+            
+         }
+
+
         private void button5_Click(object sender, EventArgs e)
         {
 
